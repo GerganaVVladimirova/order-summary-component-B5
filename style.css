@@ -14,16 +14,17 @@ body {
     font-size: 16px;
     font-weight: 500;
     color: hsl(224, 23%, 55%);
+    background-color: hsl(225, 100%, 94%);
 }
 
 section {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 
 .card {
     border-radius: 20px;
-    background-color: white;
+    background-color: hsl(225, 100%, 98%);
     box-shadow: 10px 5px 5px lightgray;
     padding: 0;
 }
@@ -37,7 +38,7 @@ div h1 {
     padding: 8% 10%;
     font-size: 2rem;
     font-weight: 900;
-    color: black;
+    color: hsl(223, 47%, 23%);
 }
 
 div p {
@@ -48,7 +49,19 @@ div p {
 h2 {
     font-size: 1rem;
     font-weight: 700;
-    color: black;
+    color: hsl(223, 47%, 23%);
+}
+
+.btn1 {
+    background-color: hsl(245, 75%, 52%);
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+}
+
+btn2 {
+    color: hsl(224, 23%, 55%);
 }
 
 @media(max-width:375px) {}
